@@ -5,9 +5,9 @@ Stacja sprzedaży droidów naprawczych jest gotowa do uruchomienia, pozostało n
 
 Deklaruje ona trzy parametry, których wartości będą ustalane podczas jej wywołania:
 
-quantity — ilość zamówionych droidów
-pricePerDroid — cena jednego droida
-customerCredits — suma środków na koncie klienta
+* quantity — ilość zamówionych droidów
+* pricePerDroid — cena jednego droida
+* customerCredits — suma środków na koncie klienta
 
 
 Uzupełnij funkcję w następujący sposób:
