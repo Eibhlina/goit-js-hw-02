@@ -12,10 +12,10 @@ customerCredits — suma środków na koncie klienta
 
 Uzupełnij funkcję w następujący sposób:
 
-Zadeklaruj zmienną do przechowywania całkowitej sumy zamówienia (łączna wartość wszystkich zamówionych droidów) i przypisz jej wyrażenie obliczające tę sumę.
-Dodaj sprawdzenie, czy klient może zapłacić za zamówienie:
-jeśli suma do zapłaty przekracza ilość kredytów na koncie klienta, funkcja powinna zwracać ciąg znaków "Insufficient funds!"
-w przeciwnym przypadku funkcja powinna zwracać ciąg znaków "You ordered <quantity> droids worth <totalPrice> credits!", gdzie <quantity> to ilość zamówionych droidów, a <totalPrice> to ich łączna wartość.
+* Zadeklaruj zmienną do przechowywania całkowitej sumy zamówienia (łączna wartość wszystkich zamówionych droidów) i przypisz jej wyrażenie obliczające tę sumę.
+* Dodaj sprawdzenie, czy klient może zapłacić za zamówienie:
+* jeśli suma do zapłaty przekracza ilość kredytów na koncie klienta, funkcja powinna zwracać ciąg znaków "Insufficient funds!"
+* w przeciwnym przypadku funkcja powinna zwracać ciąg znaków "You ordered <quantity> droids worth <totalPrice> credits!", gdzie <quantity> to ilość zamówionych droidów, a <totalPrice> to ich łączna wartość.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -25,8 +25,8 @@ Zadeklaruj funkcję formatMessage(message, maxLength), która przyjmuje ciąg zn
 
 Uzupełnij kod funkcji w taki sposób, że:
 
-Jeśli długość ciągu znaków jest równa lub mniejsza niż maxLength, funkcja zwraca początkowy ciąg znaków bez zmian.
-Jeśli długość przekracza maxLength, funkcja skraca ciąg znaków do maxLength znaków, dodaje trzy kropki "..." na końcu i zwraca skróconą wersję.
+* Jeśli długość ciągu znaków jest równa lub mniejsza niż maxLength, funkcja zwraca początkowy ciąg znaków bez zmian.
+* Jeśli długość przekracza maxLength, funkcja skraca ciąg znaków do maxLength znaków, dodaje trzy kropki "..." na końcu i zwraca skróconą wersję.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -36,5 +36,5 @@ Funkcja checkForSpam(message) przyjmuje ciąg znaków (parametr message), sprawd
 
 Uzupełnij kod funkcji tak, aby:
 
-Jeśli zostanie znalezione zabronione słowo (spam lub sale), funkcja zwraca wartość logiczną true
-Jeśli w ciągu znaków nie ma zabronionych słów, funkcja zwraca wartość logiczną false
+* Jeśli zostanie znalezione zabronione słowo (spam lub sale), funkcja zwraca wartość logiczną true
+* Jeśli w ciągu znaków nie ma zabronionych słów, funkcja zwraca wartość logiczną false
