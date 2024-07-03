@@ -38,3 +38,22 @@ Uzupełnij kod funkcji tak, aby:
 
 * Jeśli zostanie znalezione zabronione słowo (spam lub sale), funkcja zwraca wartość logiczną true
 * Jeśli w ciągu znaków nie ma zabronionych słów, funkcja zwraca wartość logiczną false
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Zadanie 4. Dostawa towaru
+
+Zadeklaruj funkcję getShippingCost(country), która powinna sprawdzać możliwość dostawy towaru do kraju użytkownika (parametr country) i zwracać komunikat o wyniku. Obowiązkowo użyj instrukcji switch.
+
+Format zwracanego ciągu znaków "Shipping to <country> will cost <price> credits", gdzie zamiast <country> i <price> należy podstawić odpowiednie wartości.
+
+
+Lista krajów i koszt dostawy:
+
+* China — 100 kredytów
+* Chile — 250 kredytów
+* Australia — 170 kredytów
+* Jamaica — 120 kredytów
+
+
+Z listy widać, że dostawa jest możliwa nie wszędzie. Jeśli podany kraj nie znajduje się na liście, funkcja powinna zwrócić ciąg znaków "Sorry, there is no delivery to your country".
